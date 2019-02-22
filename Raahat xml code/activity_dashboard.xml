@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amit.test.Dashboard"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/corousel"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:elevation="15dp">
+
+
+
+    </android.support.v4.view.ViewPager>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/corousel">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="EVENTS"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:paddingLeft="10dp"
+                android:background="#ec1e60"
+                android:drawableRight="@drawable/ic_event_black_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#ec7915"
+                android:drawableRight="@drawable/ic_notifications_active_black_24dp"
+                android:paddingLeft="10dp"
+                android:text="NOTIFICATIONS"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="#249ee7"
+                android:drawableRight="@drawable/gall"
+                android:paddingLeft="10dp"
+                android:text="GALLERY"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="HELP DESK"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:paddingLeft="10dp"
+                android:background="#8ad661"
+                android:drawableRight="@drawable/ic_call_black_24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="ABOUT US"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:paddingLeft="10dp"
+                android:background="#f43c28"
+                android:drawableRight="@drawable/ic_import_contacts_black_24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="DEVELOPER ZONE"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:paddingLeft="10dp"
+                android:background="#969495"
+                android:drawableRight="@drawable/ic_developer_mode_black_24dp"/>
+
+        </LinearLayout>
+            </android.support.v7.widget.CardView>
+    </ScrollView>
+
+
+
+</RelativeLayout>

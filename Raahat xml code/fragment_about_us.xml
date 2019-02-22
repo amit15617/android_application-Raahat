@@ -1,0 +1,134 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.amit.test.AboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/Us"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="About Us"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/Us1"
+        android:textSize="17dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="RAAHAT means a sign of relief. We aspires to bring a ray of hope into the lives of the unprivileged sections of the society by striving for their integration into mainstream. It is an organisation that especially reach out to children with various disabilities and attempts to provide quality holistic education to children who can not afford their basic needs for education and development. The group was founded by Sakshi Kwatra student of Lakshmi Narain College of Technology, Bhopal, in the year 2009. " />
+
+    <TextView
+        android:id="@+id/FbLink"
+        android:layout_below="@id/Us1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:textSize="15dp"
+        android:textColor="#1a87e7"
+        android:text="Facebook page: ​www.facebook.com/RaahatClubLnct "
+        android:linksClickable="true"/>
+    <TextView
+        android:id="@+id/BlogLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="355dp"
+        android:linksClickable="true"
+        android:textColor="#1a87e7"
+        android:text=" Blog:​ ​ ​http://raahatclublnct.blogspot.in/ "
+        android:textSize="15dp"
+        android:padding="2dp"/>
+    <TextView
+        android:id="@+id/GoogleLInk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:linksClickable="true"
+        android:textColor="#1a87e7"
+        android:text=" Google+ page: ​  ​plus.google.com/+RaahatclublnctBlogspot14"
+        android:padding="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Company Details"
+        android:layout_marginTop="429dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:text="Specialities"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:text="Child care, Child development, Upliftment of underprivileged students,Life management, Personality grooming, Social services, Spreading awareness on social issues."
+        android:textSize="17dp"
+        android:padding="4dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="Headquarters"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:text="Bhopal, Madhya Pradesh"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="670dp"
+            android:text="Company Type"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="710dp"
+            android:text="Non-Profit"
+            android:textSize="17dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="750dp"
+            android:text="Company Size"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="790dp"
+            android:text="150-200 members"
+            android:textSize="17dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="830dp"
+            android:text="Year Founded"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="870dp"
+            android:text="2009"
+            android:textSize="17dp" />
+
+
+</FrameLayout>
+</ScrollView>
